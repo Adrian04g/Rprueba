@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: rgb(0, 177, 80);
+  color: aliceblue;
+  padding: 1em;
+  text-align: center;
+}
+main {
+  padding: 2em;
+}
+button {
+  padding: 0, 5em;
+  background-color: rgb(97, 184, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(0, 75, 136);
+}
+footer {
+  background-color: rgb(0, 177, 80);
+  color: aliceblue;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+tr {
+    place-items: center;
+}
+.boton{width: 100px;}
