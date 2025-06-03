@@ -45,26 +45,39 @@ nav ul li a:hover{
 #Inicio{
     height: 100vh;
     background-color: aqua;
+    margin: 4em 0 4em 0;
+
 }
 #Acercade{
     height: 100vh;
     background-color: #6bb8ff;
+    margin: 4em 0 4em 0;
+    padding: 2em;
 }
 #Servicios{
     height: 100vh;
     background-color: rgb(255, 0, 0);
-}
+    margin: 4em 0 4em 0;
+    padding: 2em;
+} 
 #Contacto{
     height: 100vh;
     background-color: rgb(228, 59, 243);
+    margin: 4em 0 4em 0;
+    padding: 2em;
 }
-section{
+#Servicios{
     padding: 2em;
 }
 main{
-    margin-top: 4em;
     padding: 2em;
 }
+#Sinicio{
+    margin-top: 4em;
+    padding:  -1em 1em 1em 1em;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
  nav ul {
@@ -91,4 +104,8 @@ main{
     color: white;
     font-size: 1.5em;
     cursor: pointer;
+}
+.contenedorS{
+    border: 2px solid black;
+    padding: 20px;
 }
