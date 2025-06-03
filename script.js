@@ -6,3 +6,4 @@ introSection.innerHTML='<p> El texto ha cambiado¡¡</p>';
 });
 
 });
+
